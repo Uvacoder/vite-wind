@@ -45,3 +45,11 @@ npm run dev
 npm run build
 ```
 
+## screenshots
+
+![1](https://raw.githubusercontent.com/boussadjra/vite-wind/main/src/assets/screenshots/1.png)
+![2](https://raw.githubusercontent.com/boussadjra/vite-wind/main/src/assets/screenshots/2.png)
+![3](https://raw.githubusercontent.com/boussadjra/vite-wind/main/src/assets/screenshots/3.png)
+![4](https://raw.githubusercontent.com/boussadjra/vite-wind/main/src/assets/screenshots/4.png)
+![5](https://raw.githubusercontent.com/boussadjra/vite-wind/main/src/assets/screenshots/5.png)
+
