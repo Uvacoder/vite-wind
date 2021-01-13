@@ -16,6 +16,7 @@ WIP 🚧🚧🚧
                 available so far, this template supports also the dark mode. if you like it please show some support by leaving a
                 star
             </p>
+            
 ## Demo 
 
 [LIVE DEMO](vite-wind.netlify.app)
