@@ -13,7 +13,7 @@
                     <span class="text-md whitespace-nowrap text-gray-800 dark:text-gray-50 font-semibold">
                         Brahim</span>
                     <span class="text-md whitespace-nowrap text-gray-600 dark:text-gray-100">boussadjra</span>
-                    <p class="text-sm text-gray-500">I can't start my day without a coffee cup</p>
+                    <p class="text-sm text-gray-500 dark:text-gray-200">I can't start my day without a coffee cup</p>
                     <div class="py-2 flex space-x-2">
                         <w-btn size="sm" outlined>FOLLOW</w-btn>
                         <w-btn size="sm" variant="success">SPONSOR
@@ -75,7 +75,7 @@
                 <avatar src="https://i.pravatar.cc/200?img=56" size="lg" shape="rounded-full" class="bg-purple-200 row-start-1 text-purple-650">
                 </avatar>
                 <span class="font-bold text-gray-600 dark:text-gray-100 text-xl p-2">John Doe</span>
-                <span class="text-sm text-gray-500">Web designer</span>
+                <span class="text-sm text-gray-500 dark:text-gray-200">Web designer</span>
 
                 <div class="flex space-x-2 items-center py-4">
                     <w-btn circle class="bg-gray-500" size="xs">
