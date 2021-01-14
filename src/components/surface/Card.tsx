@@ -13,24 +13,24 @@ export default defineComponent({
 		const state = reactive({
 			elevations: ['shadow-none', 'shadow-xs', 'shadow-sm', 'shadow-md', 'shadow-lg', 'shadow-xl', 'shadow-2xl'],
 		});
-// const cardClasses=ref('')
+		// const cardClasses=ref('')
 		const cardClasses = computed(() => {
-            let classes:string= "test ";
-            console.log(classes)
+			let classes: string = "test ";
+			console.log(classes)
 			let index: number = state.elevations.findIndex(el => el.split('-')[1] === props.elevation);
 			let hoveredElevation = state.elevations[index + 1];
-			classes+=` shadow-${props.elevation} hover:shadow-${hoveredElevation}`;
+			classes += ` shadow-${props.elevation} hover:shadow-${hoveredElevation}`;
 			if (slots.mediaAside) {
-				classes+=' flex items-center';
-            }
-            console.log("classes ", classes)
+				classes += ' flex items-center';
+			}
+			console.log("classes ", classes)
 			return classes;
 		});
 
 
-     
 
-     
+
+
 		return () => (
 			<div class={`card  min-w-sm border border-gray-100 bg-gray-50 dark:border-gray-600 dark:bg-gray-700 dark:text-white    transition-shadow ${cardClasses.value}`}>
 				{slots.header && <h2 class="text-md mb-2 px-4 pt-4 dark:text-white   ">{slots.header()}</h2>}
