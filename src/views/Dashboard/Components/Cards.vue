@@ -90,7 +90,7 @@
     <div class="w-full grid--auto-cols gap-4">
         <card>
             <template #media>
-                <img src="../../../assets/img/salade.jpg" alt=""  />
+                <img src="../../../assets/img/salade.jpg" alt="" />
             </template>
             <p class="text-gray-600 dark:text-white    text-sm">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
@@ -116,7 +116,7 @@
                 </div>
             </template>
             <template #media>
-                <img src="../../../assets/img/walter-verna.jpg" alt=""  />
+                <img src="../../../assets/img/walter-verna.jpg" alt="" />
             </template>
             <p class="text-gray-600 dark:text-white    text-sm">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
@@ -135,7 +135,7 @@
         </card>
         <card>
             <template #media>
-                <img src="../../../assets/img/aflou.jpg" alt=""  />
+                <img src="../../../assets/img/aflou.jpg" alt="" />
             </template>
             <div>
                 <h1 class="text-md font-bold text-gray-600 dark:text-white   ">Aflou</h1>
@@ -161,7 +161,7 @@
         <card>
             <template #mediaAside>
                 <div class="w-96">
-                    <img src="../../../assets/img/scott-webb.jpg" alt=""  />
+                    <img src="../../../assets/img/scott-webb.jpg" alt="" />
                 </div>
             </template>
             <div class="h-full ">

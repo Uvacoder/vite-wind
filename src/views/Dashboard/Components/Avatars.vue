@@ -10,9 +10,9 @@
                 <avatar src="https://avatars2.githubusercontent.com/u/11801238?s=460&u=07a60f4b248400448eef07da47e3ace15331e06f&v=4" shape="rounded-full" size="md" class="absolute -top-16 flex bg-purple-200 text-purple-100 row-start-1 row-end-3 text-purple-650 ring-1 ring-white">
                 </avatar>
                 <div class="flex flex-col space-y-1 justify-center items-center -mt-12 w-full">
-                    <span class="text-md whitespace-nowrap text-gray-800 font-semibold">
+                    <span class="text-md whitespace-nowrap text-gray-800 dark:text-gray-50 font-semibold">
                         Brahim</span>
-                    <span class="text-md whitespace-nowrap text-gray-600">boussadjra</span>
+                    <span class="text-md whitespace-nowrap text-gray-600 dark:text-gray-100">boussadjra</span>
                     <p class="text-sm text-gray-500">I can't start my day without a coffee cup</p>
                     <div class="py-2 flex space-x-2">
                         <w-btn size="sm" outlined>FOLLOW</w-btn>
@@ -23,16 +23,16 @@
                         </w-btn>
                     </div>
                     <div class="py-4 flex justify-center items-center w-full divide-x divide-gray-400 divide-solid">
-                        <span class="text-center px-2"><span class="font-bold text-gray-700">{{
+                        <span class="text-center px-2"><span class="font-bold text-gray-700 dark:text-gray-50">{{
                 56
-                }}</span><span class="text-gray-600"> followers</span></span>
+                }}</span><span class="text-gray-600 dark:text-gray-100"> followers</span></span>
 
-                        <span class="text-center px-2"><span class="font-bold text-gray-700">{{
+                        <span class="text-center px-2"><span class="font-bold text-gray-700 dark:text-gray-50">{{
                 111
-                }}</span><span class="text-gray-600"> following</span></span>
-                        <span class="text-center px-2"><span class="font-bold text-gray-700">{{
+                }}</span><span class="text-gray-600 dark:text-gray-100"> following</span></span>
+                        <span class="text-center px-2"><span class="font-bold text-gray-700 dark:text-gray-50">{{
               25
-                }}</span><span class="text-gray-600"> repos</span></span>
+                }}</span><span class="text-gray-600 dark:text-gray-100"> repos</span></span>
                     </div>
                 </div>
             </div>
@@ -45,7 +45,7 @@
                 <avatar src="https://avatars2.githubusercontent.com/u/11801238?s=460&u=07a60f4b248400448eef07da47e3ace15331e06f&v=4" shape="rounded-full" size="md" class="absolute -top-16 flex bg-purple-200 text-purple-100 row-start-1 row-end-3 text-purple-650 ring-1 ring-white">
                 </avatar>
                 <div class="flex flex-col space-y-1 items-center -mt-12 w-full">
-                    <span class="text-md whitespace-nowrap text-gray-800 font-semibold">
+                    <span class="text-md whitespace-nowrap text-gray-800 dark:text-gray-50 font-semibold">
                         Boussadjra Brahim</span>
                     <span class="flex space-x-2 py-3 items-center">
                         <span class="text-4xl text-purple-600 font-bold">33800</span>
@@ -53,18 +53,18 @@
                     </span>
                     <div class="flex justify-center space-x-4 py-4">
                         <div class="flex flex-col items-center" v-for="(count, key, i) in badges" :key="i">
-                            <icon-badge height="32" width="32" :class="['text-gray-600 text-5xl', getIconColor(key)]" />
+                            <icon-badge height="32" width="32" :class="['text-gray-600 dark:text-gray-100 text-5xl', getIconColor(key)]" />
 
                             <badge shape="rounded" :bgColor="getBadgeColor(key)" :textColor="
-                    key === 'silver' ? 'text-gray-600' : 'text-gray-100'
+                    key === 'silver' ? 'text-gray-600 dark:text-gray-100' : 'text-gray-100'
                   ">
                                 <span class="text-xs"> {{ count }}</span>
                             </badge>
                         </div>
                     </div>
                     <div class="py-4 flex justify-center items-center w-full divide-x divide-gray-400 divide-solid">
-                        <span class="text-center px-2"><span class="font-bold text-gray-700">1217</span><span class="text-gray-600"> answers</span></span>
-                        <span class="text-center px-2"><span class="font-bold text-gray-700">14</span><span class="text-gray-600"> questions</span></span>
+                        <span class="text-center px-2"><span class="font-bold text-gray-700 dark:text-gray-50">1217</span><span class="text-gray-600 dark:text-gray-100"> answers</span></span>
+                        <span class="text-center px-2"><span class="font-bold text-gray-700 dark:text-gray-50">14</span><span class="text-gray-600 dark:text-gray-100"> questions</span></span>
                     </div>
                 </div>
             </div>
@@ -74,7 +74,7 @@
             <div class="flex flex-col items-center w-96">
                 <avatar src="https://i.pravatar.cc/200?img=56" size="lg" shape="rounded-full" class="bg-purple-200 row-start-1 text-purple-650">
                 </avatar>
-                <span class="font-bold text-gray-600 text-xl p-2">John Doe</span>
+                <span class="font-bold text-gray-600 dark:text-gray-100 text-xl p-2">John Doe</span>
                 <span class="text-sm text-gray-500">Web designer</span>
 
                 <div class="flex space-x-2 items-center py-4">
