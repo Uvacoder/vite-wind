@@ -19,7 +19,7 @@ WIP 🚧🚧🚧
             
 ## Demo 
 
-[LIVE DEMO](vite-wind.netlify.app)
+[LIVE DEMO](https://vite-wind.netlify.app/)
  
 ## Usage
 
